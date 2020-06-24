@@ -41,6 +41,7 @@
 \usepackage{multirow} % Слияние строк в таблице
 
 % Переменные
+\newcommand{\MAIITitle}{Московский Авиационный Институт \\ (Национальный исследовательский университет)}
 \newcommand{\MAIInstitute}{8}
 \newcommand{\MAIInstituteName}{Информационные технологии и прикладная математика}
 \newcommand{\MAIDepartment}{813}
@@ -58,42 +59,41 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+\begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
 	
-	\center % Centre everything on the page
+	\center
 	
 	%------------------------------------------------
-	%	Headings
+	%	Заголовок
 	%------------------------------------------------
 	
-	\textsc{\large Московский Авиационный Институт \\ (Национальный исследовательский университет)}\\[1.25cm] % Main heading such as the name of your university/college
+	\textsc{\large \MAIITitle}\\[1.25cm] % Main heading such as the name of your university/college
 	
 	%------------------------------------------------
-	%	Logo
+	%	Логотип института
 	%------------------------------------------------
 	
 	\includegraphics[width=2.5cm]{mai-logo.eps}
 	
 	%----------------------------------------------------------------------------------------
 	
+	\textsc{\Large Институт №\MAIInstitute \\ «\MAIInstituteName»}\\[0.5cm] % Название института
 	
-	\textsc{\Large Институт №\MAIInstitute \\ «\MAIInstituteName»}\\[0.5cm] % Major heading such as course name
-	
-	\textsc{\large Кафедра \MAIDepartment \\ «\MAIDepartmentName»}\\[0.5cm] % Minor heading such as course title
+	\textsc{\large Кафедра \MAIDepartment \\ «\MAIDepartmentName»}\\[0.5cm] % Название кафедры
 	
 	%------------------------------------------------
-	%	Title
+	%	Название
 	%------------------------------------------------
 	
 	\HRule\\[0.4cm]
 	
-	{\huge\bfseries Применение фундаментальных алгоритмов для анализа данных}\\[0.5cm] % Title of your document
+	{\huge\bfseries Применение фундаментальных алгоритмов для анализа данных}\\[0.5cm]
 	
 	\HRule\\[1.5cm]
 	
 	%------------------------------------------------
-	%	Author(s)
+	%	Студент, группа, преподаватель, оценка, дата.
 	%------------------------------------------------
 	
 	\vfill\vfill
