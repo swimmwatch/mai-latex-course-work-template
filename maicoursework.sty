@@ -1,0 +1,155 @@
+\ProvidesPackage{maicoursework}[MAI latex course work]
+\RequirePackage{graphicx}
+\RequirePackage{cmap}					% поиск в PDF
+\RequirePackage{mathtext} 				% русские буквы в формулах
+\RequirePackage[T2A]{fontenc}			% кодировка
+\RequirePackage[utf8]{inputenc}			% кодировка исходного текста
+\RequirePackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\RequirePackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\RequirePackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%%% Шрифты
+\RequirePackage{euscript} % Шрифт Евклид
+\RequirePackage{mathrsfs} % Красивый матшрифт
+
+%%% Работа с картинками
+\RequirePackage{graphicx}  % Для вставки рисунков
+\graphicspath{{images/}{images2/}}  % папки с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\RequirePackage{wrapfig} % Обтекание рисунков и таблиц текстом
+
+%%% Работа с таблицами
+\RequirePackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\RequirePackage{longtable}  % Длинные таблицы
+\RequirePackage{multirow} % Слияние строк в таблице
+
+%%% Кликабельные ссылки
+\RequirePackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+%%% Список литературы
+\RequirePackage[nottoc]{tocbibind}
+
+%%% Задаём стиль списка литературы
+\RequirePackage[square,numbers]{natbib}
+\bibliographystyle{abbrvnat}
+
+%%% Глобальные переменные
+\newcommand*{\MAIInstitute}[1]{\gdef\@MAIInstitute{#1}%
+}
+\newcommand{\@MAIInstitute}{8}
+
+\newcommand*{\MAITitle}[1]{\gdef\@MAITitle{#1}%
+}
+\newcommand{\@MAITitle}{Московский Авиационный институт \\ (Национальный исследовательский университет)}
+
+\newcommand*{\MAIInstituteName}[1]{\gdef\@MAIInstituteName{#1}%
+}
+\newcommand{\@MAIInstituteName}{Информационные технологии и прикладная математика}
+
+\newcommand*{\MAIDepartment}[1]{\gdef\@MAIDepartment{#1}%
+}
+\newcommand{\@MAIDepartment}{813}
+
+\newcommand*{\MAIDepartmentName}[1]{\gdef\@MAIDepartmentName{#1}%
+}
+\newcommand{\@MAIDepartmentName}{Компьютерная математика}
+
+\newcommand*{\MAISubject}[1]{\gdef\@MAISubject{#1}%
+}
+
+\newcommand*{\MAIWorkTitle}[1]{\gdef\@MAIWorkTitle{#1}%
+}
+
+\newcommand*{\MAIWorkType}[1]{\gdef\@MAIWorkType{#1}%
+}
+\newcommand{\@MAIWorkType}{Курсовой проект}
+
+\newcommand*{\MAITeacherName}[1]{\gdef\@MAITeacherName{#1}%
+}
+
+\newcommand*{\MAIGroup}[1]{\gdef\@MAIGroup{#1}%
+}
+\newcommand{\@MAIGroup}{М8О-310Б-18}
+
+\newcommand*{\MAIDate}[1]{\gdef\@MAIDate{#1}%
+}
+
+\renewcommand*{\maketitle}{
+	
+\begin{titlepage}
+	\center
+	
+	%------------------------------------------------
+	%	Заголовок
+	%------------------------------------------------
+	
+	\textsc{\large \@MAITitle}\\[1.25cm] 
+	
+	%------------------------------------------------
+	%	Логотип института
+	%------------------------------------------------
+	
+	\includegraphics[width=2.5cm]{mai-logo.eps}
+	
+	%----------------------------------------------------------------------------------------
+	
+	\textsc{\Large Институт №\@MAIInstitute \\ «\@MAIInstituteName»}\\[0.5cm] % Название института
+	
+	\textsc{\large Кафедра \@MAIDepartment \\ «\@MAIDepartmentName»}\\[0.5cm] % Название кафедры
+	
+	%------------------------------------------------
+	%	Название
+	%------------------------------------------------
+	
+	{\bfseries \@MAIWorkType \ по дисциплине «\@MAISubject» \\ Тема: «\@MAIWorkTitle»}\\[0.5cm]
+	
+	%------------------------------------------------
+	%	Студент, группа, преподаватель, оценка, дата.
+	%------------------------------------------------
+	
+	\vfill\vfill
+	
+	\begin{minipage}{1\textwidth}
+		\begin{flushright}
+			\begin{tabular}{|l|r|}
+				\hline 
+				Студент &\@author \\ 
+				\hline 
+				Группа & \@MAIGroup \\ 
+				\hline 
+				Преподаватель & \@MAITeacherName \\ 
+				\hline 
+				Оценка & \\ 
+				\hline 
+				Дата & \@MAIDate \\ 
+				\hline 
+			\end{tabular} 
+		\end{flushright}
+	\end{minipage}
+	
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill
+	
+	{\large Москва \the\year{}} 
+	
+\end{titlepage}
+
+}
+\endinput
