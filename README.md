@@ -38,7 +38,13 @@ This project contains template for common MAI works.
 5. Enjoy!
 
 ## What can you do?
-You can create there are table, picture, code listing and use Python within LaTeX document (you need to use pythontex)!
+You can create there are table, picture, code listing and use Python within LaTeX document (you need to use pythontex)! All necessary packages are included.
+
+## Recommended environment
+I prefer to use [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
+![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
+Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
+![Build pythontex](https://psv4.userapi.com/c856428/u170702424/docs/d9/7a40900ee798/vs_code_task_buid.gif)
 
 ## Input parameters
 These parameters are setting in preambule:
