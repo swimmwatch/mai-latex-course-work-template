@@ -9,9 +9,11 @@ This project contains template for common MAI works.
     \documentclass[a4paper,12pt]{article}
     \usepackage{maicoursework}
 
+    %%% Преамбула
     \author{Васильев Дмитрий Олегович}
     \MAIWorkTitle{Применение фундаментальных алгоритмов для анализа данных}
     \MAIDate{\today}
+    \MAITeacherName{Родников Александр Владимирович}
     \MAIWorkType{Курсовая работа}
     \MAISubject{Теория графов}
 
