@@ -17,7 +17,7 @@ Main benefits:
     \author{Иванов Иван Иванович}
     \MAIWorkTitle{Применение фундаментальных алгоритмов для анализа данных}
     \MAIDate{\today}
-    \MAITeacherName{Петров Пётр Петрович}
+    \MAIProfessorName{Петров Пётр Петрович}
     \MAIWorkType{Курсовая работа}
     \MAISubject{Теория графов}
 
