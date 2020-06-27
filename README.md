@@ -3,7 +3,7 @@ This project contains template for common MAI works.
 
 Main benefits:
 1. Template has made in accordance with [GOST](http://www.agni-rt.ru/docs/institute/science/niokr/GOST%207.32-2001.pdf?roistat_visit=3184839). You and your professor don't need to check if course work is valid.
-2. All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex)).
+2. All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex).
 
 ## How to use?
 1. Fork this repository
