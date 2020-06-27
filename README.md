@@ -14,10 +14,10 @@ Main benefits:
     \usepackage{maicoursework}
 
     %%% Преамбула
-    \author{Васильев Дмитрий Олегович}
+    \author{Иванов Иван Иванович}
     \MAIWorkTitle{Применение фундаментальных алгоритмов для анализа данных}
     \MAIDate{\today}
-    \MAITeacherName{Родников Александр Владимирович}
+    \MAITeacherName{Петров Пётр Петрович}
     \MAIWorkType{Курсовая работа}
     \MAISubject{Теория графов}
 
