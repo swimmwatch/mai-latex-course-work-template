@@ -2,7 +2,7 @@
 This project contains template for common MAI works.
 
 Main benefits:
-1. Template has made in accordance with [GOST](http://www.agni-rt.ru/docs/institute/science/niokr/GOST%207.32-2001.pdf?roistat_visit=3184839). You and your professor don't need to check if course work is valid.
+1. Template has been made in accordance with [GOST](http://www.agni-rt.ru/docs/institute/science/niokr/GOST%207.32-2001.pdf?roistat_visit=3184839). You and your professor don't need to check if course work is valid.
 2. All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex).
 
 ## How to use?
@@ -54,12 +54,12 @@ These parameters are setting in preambule:
 | ```\MAISubject```        | Subject                              |
 | ```\MAIWorkTitle```      | Title                                |
 | ```\MAIWorkType```       | Course work, course project and etc. |
-| ```\MAIProfessorName```  | Professor name                       |
+| ```\MAIProfessorName```  | Professor's name                     |
 | ```\MAIGroup```          | Group ID                             |
 | ```\MAIDate```           | Date of completion                   |
 
 ## Recommended environment
-I prefer to use [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
+I prefer using [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
 ![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
 
 Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
