@@ -1,6 +1,10 @@
 # mai-latex-course-work-template
 This project contains template for common MAI works.
 
+Main benefits:
+1. Template has made in accordance with GOST. You and your professor don't need to check if course work is valid.
+2. All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex)).
+
 ## How to use?
 1. Fork this repository
 2. Create TeX document
@@ -37,16 +41,6 @@ This project contains template for common MAI works.
 4. Compile TeX document
 5. Enjoy!
 
-## What can you do?
-You can create there are table, picture, code listing and use Python within LaTeX document (you need to use pythontex)! All necessary packages are included.
-
-## Recommended environment
-I prefer to use [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
-![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
-
-Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
-![Build PythonTeX](https://i.ibb.co/XV2VgZP/ezgif-com-video-to-gif.gif)
-
 ## Input parameters
 These parameters are setting in preambule:
 
@@ -63,3 +57,10 @@ These parameters are setting in preambule:
 | ```\MAIProfessorName```  | Professor name                       |
 | ```\MAIGroup```          | Group ID                             |
 | ```\MAIDate```           | Date of completion                   |
+
+## Recommended environment
+I prefer to use [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
+![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
+
+Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
+![Build PythonTeX](https://i.ibb.co/XV2VgZP/ezgif-com-video-to-gif.gif)
