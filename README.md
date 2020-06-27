@@ -45,7 +45,7 @@ I prefer to use [VS Code](https://code.visualstudio.com/) with extension [LaTeX 
 ![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
 
 Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
-![Build pythontex](https://psv4.userapi.com/c856428/u170702424/docs/d9/7a40900ee798/vs_code_task_buid.gif)
+![Build PythonTeX](https://i.ibb.co/dbPKt70/vs-code-task-buid.gif)
 
 ## Input parameters
 These parameters are setting in preambule:
