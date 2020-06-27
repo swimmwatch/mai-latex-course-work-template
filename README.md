@@ -39,7 +39,7 @@ Main benefits:
     \end{document}
     ```
 4. Compile TeX document
-5. Enjoy!
+5. [Enjoy](./document.pdf)!
 
 ## Input parameters
 These parameters are setting in preambule:
