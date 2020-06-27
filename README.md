@@ -1,9 +1,9 @@
 # mai-latex-course-work-template
 This project contains template for common MAI works.
 
-## How to use this template?
+## How to use?
 1. Fork this repository
-2. Create ```report.tex```
+2. Create TeX document
 3. Insert this code:
     ```latex
     \documentclass[a4paper,12pt]{article}
@@ -12,7 +12,6 @@ This project contains template for common MAI works.
     \author{Васильев Дмитрий Олегович}
     \MAIWorkTitle{Применение фундаментальных алгоритмов для анализа данных}
     \MAIDate{\today}
-    \MAITeacherName{Васильев Дмитрий Олегович}
     \MAIWorkType{Курсовая работа}
     \MAISubject{Теория графов}
 
@@ -33,8 +32,25 @@ This project contains template for common MAI works.
 
     \end{document}
     ```
-4. Compile ```report.tex```
+4. Compile TeX document
 5. Enjoy!
 
-## What can you do in this template?
+## What can you do?
 You can create there are table, picture, code listing and use Python within LaTeX document (you need to use pythontex)!
+
+## Input parameters
+These parameters are setting in preambule:
+
+| Parameter                | Description                          |
+| ------------------------ |:------------------------------------ |
+| ```\author```            | Author of document                   |
+| ```\MAIInstitute```      | Institute number                     |
+| ```\MAIInstituteName```  | Institute title                      |
+| ```\MAIDepartment```     | Department number                    |
+| ```\MAIDepartmentName``` | Department name                      |
+| ```\MAISubject```        | Subject                              |
+| ```\MAIWorkTitle```      | Title                                |
+| ```\MAIWorkType```       | Course work, course project and etc. |
+| ```\MAIProfessorName```  | Professor name                       |
+| ```\MAIGroup```          | Group ID                             |
+| ```\MAIDate```           | Date of completion                   |
