@@ -15,8 +15,8 @@ Main benefits:
 
     %%% Преамбула
     \author{Иванов Иван Иванович}
-    \MAIWorkTitle{Применение фундаментальных алгоритмов для анализа данных}
-    \MAIDate{\today}
+    \title{Применение фундаментальных алгоритмов для анализа данных}
+    \date{\today}
     \MAIProfessorName{Петров Пётр Петрович}
     \MAIWorkType{Курсовая работа}
     \MAISubject{Теория графов}
@@ -56,7 +56,7 @@ These parameters are setting in preambule:
 | ```\MAIWorkType```       | Course work, course project and etc. |
 | ```\MAIProfessorName```  | Professor's name                     |
 | ```\MAIGroup```          | Group ID                             |
-| ```\MAIDate```           | Date of completion                   |
+| ```\date```              | Date of completion                   |
 
 ## Recommended environment
 I prefer using [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
