@@ -52,7 +52,7 @@ These parameters are setting in preambule:
 | ```\MAIDepartment```     | Department number                    |
 | ```\MAIDepartmentName``` | Department name                      |
 | ```\MAISubject```        | Subject                              |
-| ```\MAIWorkTitle```      | Title                                |
+| ```\title```             | Title                                |
 | ```\MAIWorkType```       | Course work, course project and etc. |
 | ```\MAIProfessorName```  | Professor's name                     |
 | ```\MAIGroup```          | Group ID                             |
