@@ -96,6 +96,19 @@
 
 \RequirePackage{pythontex}
 
+
+%%% Теоремы
+\theoremstyle{plain} % Это стиль по умолчанию, его можно не переопределять.
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{proposition}[theorem]{Утверждение}
+ 
+\theoremstyle{definition} % "Определение"
+\newtheorem{corollary}{Следствие}[theorem]
+\newtheorem{problem}{Задача}[section]
+ 
+\theoremstyle{remark} % "Примечание"
+\newtheorem*{nonum}{Решение}
+
 %%% Глобальные переменные
 \newcommand*{\MAIInstitute}[1]{\gdef\@MAIInstitute{#1}%
 }
