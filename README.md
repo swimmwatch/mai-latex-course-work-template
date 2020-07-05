@@ -13,7 +13,7 @@ Main benefits:
     \documentclass[a4paper,12pt]{article}
     \usepackage{maicoursework}
 
-    %%% Преамбула
+    % Преамбула
     \author{Иванов Иван Иванович}
     \title{Применение фундаментальных алгоритмов для анализа данных}
     \date{\today}
@@ -29,10 +29,13 @@ Main benefits:
 
     \clearpage
 
-    \section{First Section}
-    This document is an example of \texttt{natbib} package using in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, the Einstein journal paper \citet{einstein}, and the Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are \cite{latexcompanion,knuthwebsite}.
+    % Импортируем все секции
+    \begin{pycode}
+    import os
 
-    \clearpage
+    for filename in os.listdir("sections"):
+        print(f"\import{{sections/}}{{{filename}}}")
+    \end{pycode}
 
     \bibliography{sourselist}
 
