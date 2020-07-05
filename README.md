@@ -41,8 +41,9 @@ Main benefits:
 
     \end{document}
     ```
-4. Compile TeX document
-5. [Enjoy](./document.pdf)!
+4. Create new "section" in sections folder.
+5. Compile TeX document
+6. [Enjoy](./document.pdf)!
 
 ## Input parameters
 These parameters are setting in preambule:
