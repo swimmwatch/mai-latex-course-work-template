@@ -63,8 +63,8 @@
 \RequirePackage[nottoc]{tocbibind}
 
 %%% Задаём стиль списка литературы
-\RequirePackage[square,numbers]{natbib}
-\bibliographystyle{abbrvnat}
+\RequirePackage[backend=biber,bibencoding=utf8]{biblatex}
+\addbibresource{list.bib}
 
 %%% Оформление кода
 \RequirePackage{listings}
