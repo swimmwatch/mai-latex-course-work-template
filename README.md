@@ -68,3 +68,8 @@ I prefer using [VS Code](https://code.visualstudio.com/) with extension [LaTeX W
 
 Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
 ![Build PythonTeX](https://i.ibb.co/XV2VgZP/ezgif-com-video-to-gif.gif)
+
+## Useful services
+* [mathurl](http://mathurl.com) – Easy way to write formulas.
+* [Detexify](http://detexify.kirelabs.org/classify.html) – Anyone who works with LaTeX knows how time-consuming it can be to find a symbol in sheet that you just can't memorize. Detexify is an attempt to simplify this search.
+* [latexsheet](http://wch.github.io/latexsheet/latexsheet.pdf) – LaTeX sheet.
