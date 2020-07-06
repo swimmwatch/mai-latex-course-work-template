@@ -49,7 +49,9 @@
 
 %%% Кликабельные ссылки
 \RequirePackage{hyperref}
-\hypersetup{
+\RequirePackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
+\hypersetup{				% Гиперссылки
+    unicode=true,           % русские буквы в раздела PDF
 	colorlinks,
 	citecolor=black,
 	filecolor=black,
