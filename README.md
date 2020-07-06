@@ -13,7 +13,7 @@ Main benefits:
     \documentclass[a4paper,12pt]{article}
     \usepackage{maicoursework}
 
-    % Преамбула
+    %%% Преамбула
     \author{Иванов Иван Иванович}
     \title{Применение фундаментальных алгоритмов для анализа данных}
     \date{\today}
@@ -37,7 +37,7 @@ Main benefits:
         print(f"\import{{sections/}}{{{filename}}}")
     \end{pycode}
 
-    \bibliography{sourselist}
+    \printbibliography
 
     \end{document}
     ```
