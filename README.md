@@ -33,7 +33,7 @@ Main benefits:
     \begin{pycode}
     import os
 
-    for filename in os.listdir("sections"):
+    for filename in os.listdir("sections/*.tex"):
         print(f"\import{{sections/}}{{{filename}}}")
     \end{pycode}
 
