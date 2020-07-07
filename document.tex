@@ -21,7 +21,7 @@
 \begin{pycode}
 import os
 
-for filename in os.listdir("sections"):
+for filename in os.listdir("sections/*.text"):
     print(f"\import{{sections/}}{{{filename}}}")
 \end{pycode}
 
