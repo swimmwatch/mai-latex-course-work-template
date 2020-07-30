@@ -18,12 +18,7 @@
 \clearpage
 
 % Импортируем все секции
-\begin{pycode}
-import os
-
-for filename in os.listdir("sections/*.text"):
-    print(f"\import{{sections/}}{{{filename}}}")
-\end{pycode}
+\input{sections/introduction}
 
 \printbibliography
 

@@ -29,13 +29,8 @@ Main benefits:
 
     \clearpage
 
-    % Импортируем все секции
-    \begin{pycode}
-    import os
-
-    for filename in os.listdir("sections/*.tex"):
-        print(f"\import{{sections/}}{{{filename}}}")
-    \end{pycode}
+    %%% Импортируем все секции
+    \input{sections/introduction}
 
     \printbibliography
 
