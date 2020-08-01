@@ -7,38 +7,8 @@ Main benefits:
 
 ## How to use?
 1. Use this repository as template
-2. Create TeX document
-3. Insert this code:
-    ```latex
-    \documentclass[a4paper,12pt]{article}
-    \usepackage{maicoursework}
-
-    %%% Преамбула
-    \author{Иванов Иван Иванович}
-    \title{Применение фундаментальных алгоритмов для анализа данных}
-    \date{\today}
-    \MAIProfessorName{Петров Пётр Петрович}
-    \MAIWorkType{Курсовая работа}
-    \MAISubject{Теория графов}
-
-    \begin{document}
-
-    \maketitle
-
-    \tableofcontents
-
-    \clearpage
-
-    %%% Импортируем все секции
-    \input{sections/introduction}
-
-    \printbibliography
-
-    \end{document}
-    ```
-4. Create new "section" in sections folder.
-5. Compile TeX document
-6. [Enjoy](./document.pdf)!
+2. Compile TeX document
+3. [Enjoy](./document.pdf)!
 
 ## Input parameters
 These parameters are setting in preambule:
