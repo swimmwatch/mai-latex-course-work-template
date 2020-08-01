@@ -12,6 +12,16 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "build glossary",
+            "type": "shell",
+            "command": "makeglossaries document",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
