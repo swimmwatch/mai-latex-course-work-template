@@ -6,7 +6,7 @@ Main benefits:
 * All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex).
 
 ## How to use?
-1. Clone this repository
+1. Use this repository as template
 2. Create TeX document
 3. Insert this code:
     ```latex
