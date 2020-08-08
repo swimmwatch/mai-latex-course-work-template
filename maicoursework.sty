@@ -120,6 +120,18 @@
 %%% Глосарий и акронимы
 \RequirePackage[acronym, toc]{glossaries}
 
+%%% Code color (minted)
+\RequirePackage{minted}
+
+\setminted{
+    fontsize=\scriptsize,
+    baselinestretch=1,
+    breaklines,
+    linenos,
+    numbersep=5pt,
+    frame=lines
+}
+
 %%% Глобальные переменные
 \newcommand*{\MAIInstitute}[1]{\gdef\@MAIInstitute{#1}%
 }
@@ -227,4 +239,12 @@
 	\end{titlepage}
 	
 }
+
+%%% Определяем окружение noerr для minted
+\makeatletter
+\AtBeginEnvironment{noerr}{\dontdofcolorbox}
+\def\dontdofcolorbox{\renewcommand\fcolorbox[4][]{##4}}
+\makeatother
+\newenvironment{noerr}{}%
+
 \endinput
