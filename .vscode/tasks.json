@@ -6,7 +6,7 @@
         {
             "label": "build pythontex code",
             "type": "shell",
-            "command": "pythontex --interpreter \"python:python3\" ${fileBasename}",
+            "command": "pythontex --interpreter \"python:python3\" document.tex",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
