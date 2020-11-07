@@ -82,15 +82,15 @@
 	numberstyle=\tiny\color{codegray},
 	stringstyle=\color{codepurple},
 	basicstyle=\ttfamily\footnotesize,
-	breakatwhitespace=false,         
-	breaklines=true,                 
-	captionpos=b,                    
-	keepspaces=true,                 
-	numbers=left,                    
-	numbersep=5pt,                  
-	showspaces=false,                
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	numbers=left,
+	numbersep=5pt,
+	showspaces=false,
 	showstringspaces=false,
-	showtabs=false,                  
+	showtabs=false,
 	tabsize=2
 }
 
@@ -124,13 +124,16 @@
 \RequirePackage{minted}
 
 \setminted{
-    fontsize=\scriptsize,
+    fontsize=\normalsize,
     baselinestretch=1,
     breaklines,
     linenos,
     numbersep=5pt,
     frame=lines
 }
+
+% change caption text for listings
+\renewcommand\listingscaption{Листинг}
 
 %%% Глобальные переменные
 \newcommand*{\MAIInstitute}[1]{\gdef\@MAIInstitute{#1}%
