@@ -1,19 +1,19 @@
 \ProvidesPackage{maicoursework}[MAI latex course work]
 \RequirePackage{graphicx}
-\RequirePackage{cmap}					% поиск в PDF
-\RequirePackage{mathtext} 				% русские буквы в формулах
-\RequirePackage[T2A]{fontenc}			% кодировка
-\RequirePackage[utf8]{inputenc}			% кодировка исходного текста
-\RequirePackage[english,russian]{babel}	% локализация и переносы
+\RequirePackage{cmap}                   % поиск в PDF
+\RequirePackage{mathtext}               % русские буквы в формулах
+\RequirePackage[T2A]{fontenc}           % кодировка
+\RequirePackage[utf8]{inputenc}         % кодировка исходного текста
+\RequirePackage[english,russian]{babel} % локализация и переносы
 
 %%% Задание размер страницы
 \RequirePackage{geometry}
 \geometry{
-	a4paper,
-	left=30mm,
-	top=20mm,
-	right=20mm,
-	bottom=20mm
+    a4paper,
+    left=30mm,
+    top=20mm,
+    right=20mm,
+    bottom=20mm
 }
 
 %%% Задаём отступ у параграфа
@@ -52,11 +52,11 @@
 \RequirePackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
 \hypersetup{				% Гиперссылки
     unicode=true,           % русские буквы в раздела PDF
-	colorlinks,
-	citecolor=black,
-	filecolor=black,
-	linkcolor=black,
-	urlcolor=black
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
 }
 
 %%% Список литературы
@@ -76,22 +76,22 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
 \lstdefinestyle{mystyle}{
-	backgroundcolor=\color{backcolour},
-	commentstyle=\color{codegreen},
-	keywordstyle=\color{magenta},
-	numberstyle=\tiny\color{codegray},
-	stringstyle=\color{codepurple},
-	basicstyle=\ttfamily\footnotesize,
-	breakatwhitespace=false,
-	breaklines=true,
-	captionpos=b,
-	keepspaces=true,
-	numbers=left,
-	numbersep=5pt,
-	showspaces=false,
-	showstringspaces=false,
-	showtabs=false,
-	tabsize=2
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
 }
 
 \lstset{style=mystyle}
@@ -171,76 +171,75 @@
 \newcommand{\@MAIGroup}{М8О-310Б-18}
 
 \renewcommand*{\maketitle}{
-	
-	\begin{titlepage}
-		\center
-		
-		%------------------------------------------------
-		%	Заголовок
-		%------------------------------------------------
+    
+    \begin{titlepage}
+        \center
+        
+        %------------------------------------------------
+        %	Заголовок
+        %------------------------------------------------
 
-		\textsc{\bfseries \LARGE Министерство образования и науки РФ}
-		
-		\textsc{\large \@MAITitle}\\[1.25cm]
-		
-		%------------------------------------------------
-		%	Логотип института
-		%------------------------------------------------
-		
-		\includegraphics[width=2.5cm]{mai-logo.eps}
-		
-		%----------------------------------------------------------------------------------------
-		
-		\textsc{\Large Институт №\@MAIInstitute \\ «\@MAIInstituteName»}\\[0.5cm] % Название института
-		
-		\textsc{\large Кафедра \@MAIDepartment \\ «\@MAIDepartmentName»}\\[0.5cm] % Название кафедры
-		
-		%------------------------------------------------
-		%	Название
-		%------------------------------------------------
-		
-		{\bfseries \@MAIWorkType \ по дисциплине «\@MAISubject» \\ Тема: «\@title»}\\[0.5cm]
-		
-		%------------------------------------------------
-		%	Студент, группа, преподаватель, оценка, дата.
-		%------------------------------------------------
-		
-		\vfill
-		
-		\begin{minipage}{1\textwidth}
-			\begin{flushright}
-				\begin{tabular}{|l|r|}
-					\hline 
-					Студент & \@author \\
-					\hline 
-					Группа & \@MAIGroup \\
-					\hline
-					Преподаватель & \@MAIProfessorName \\ 
-					\hline 
-					Дата & \@date \\ 
-					\hline 
-				\end{tabular} 
-			\end{flushright}
-			\begin{flushright}
-				\begin{tabular}{p{4.75cm}p{1in}}
-					\\[12pt]
-					Оценка: & \hrulefill \\[12pt]
-					Подпись преподавателя: & \hrulefill \\[12pt]
-					Подпись студента: & \hrulefill \\[12pt]
-				\end{tabular}
-			\end{flushright}
-		\end{minipage}
-		
-		%------------------------------------------------
-		%	Date
-		%------------------------------------------------
-		
-		\vfill\vfill\vfill
-		
-		{\large Москва \the\year{}} 
-		
-	\end{titlepage}
-	
+        \textsc{\bfseries \LARGE Министерство образования и науки РФ}
+        
+        \textsc{\large \@MAITitle}\\[1.25cm]
+        
+        %------------------------------------------------
+        %	Логотип института
+        %------------------------------------------------
+        
+        \includegraphics[width=2.5cm]{mai-logo.eps}
+        
+        %----------------------------------------------------------------------------------------
+        
+        \textsc{\Large Институт №\@MAIInstitute \\ «\@MAIInstituteName»}\\[0.5cm] % Название института
+        
+        \textsc{\large Кафедра \@MAIDepartment \\ «\@MAIDepartmentName»}\\[0.5cm] % Название кафедры
+        
+        %------------------------------------------------
+        %	Название
+        %------------------------------------------------
+        
+        {\bfseries \@MAIWorkType \ по дисциплине «\@MAISubject» \\ Тема: «\@title»}\\[0.5cm]
+        
+        %------------------------------------------------
+        %	Студент, группа, преподаватель, оценка, дата.
+        %------------------------------------------------
+        
+        \vfill
+        
+        \begin{minipage}{1\textwidth}
+            \begin{flushright}
+                \begin{tabular}{|l|r|}
+                    \hline 
+                    Студент & \@author \\
+                    \hline 
+                    Группа & \@MAIGroup \\
+                    \hline
+                    Преподаватель & \@MAIProfessorName \\ 
+                    \hline 
+                    Дата & \@date \\ 
+                    \hline 
+                \end{tabular} 
+            \end{flushright}
+            \begin{flushright}
+                \begin{tabular}{p{4.75cm}p{1in}}
+                    \\[12pt]
+                    Оценка: & \hrulefill \\[12pt]
+                    Подпись преподавателя: & \hrulefill \\[12pt]
+                    Подпись студента: & \hrulefill \\[12pt]
+                \end{tabular}
+            \end{flushright}
+        \end{minipage}
+        
+        %------------------------------------------------
+        %	Date
+        %------------------------------------------------
+        
+        \vfill\vfill\vfill
+        
+        {\large Москва \the\year{}} 
+        
+    \end{titlepage}
 }
 
 %%% Определяем окружение noerr для minted
