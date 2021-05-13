@@ -28,11 +28,17 @@ These parameters are setting in preambule:
 | ```\date```              | Date of completion                   |
 
 ## Recommended environment
+
+### VS code
 I prefer using [VS Code](https://code.visualstudio.com/) with extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
 ![VS Code Workflow](https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/preview.gif)
 
 Also you can set [build task](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) that will run ```pythontex```.
 ![Build PythonTeX](https://i.ibb.co/XV2VgZP/ezgif-com-video-to-gif.gif)
+
+### Overleaf
+
+It is possible to run in [Overleaf](https://www.overleaf.com/) but pythontex will not work.
 
 ## Useful services
 * [mathurl](http://mathurl.com) – Easy way to write formulas.
