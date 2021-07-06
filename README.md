@@ -5,6 +5,22 @@ Main benefits:
 * Template has been made in accordance with [GOST](http://www.agni-rt.ru/docs/institute/science/niokr/GOST%207.32-2001.pdf?roistat_visit=3184839). You and your professor don't need to check if course work is valid.
 * All necessary packages are included. There are encoding, table, picture, code listing and [pythontex](https://github.com/gpoore/pythontex).
 
+## How to install?
+### Windows
+TODO
+
+### Ubuntu
+1. Install those packages:
+```bash
+sudo apt install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-lang-cyrillic texlive-bibtex-extra biber latexmk 
+```
+2. Install PythonTeX:
+```bash
+git clone https://github.com/gpoore/pythontex.git
+chmod +x pythontex/pythontex_install.py
+./python_install.py
+```
+
 ## How to use?
 1. Use this repository as template
 2. Compile TeX document
